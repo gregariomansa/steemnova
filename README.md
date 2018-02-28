@@ -53,7 +53,7 @@ SteemNova expansion goes as follows:
 ## Local installation
 
 - Clone the repo: `git clone https://github.com/steemnova/steemnova`
-- Install components: `apt-get install apache2 php7.0 php7.0-gd php7.0-fpm php7.0-mysql libapache2-mod mysql-server`
+- Install components: `apt-get install apache2 php7.0 php7.0-gd php7.0-fpm php7.0-mysql libapache2-mod-php7.0 mysql-server`
 - Setup mysql: `create user USER identified by PASSWORD; create database DB; grant all privileges on DB.* to USER;`
 - Set write privileges to dirs: `cache/`, `includes/`
 - Run wizard: `127.0.0.1/install/install.php`
